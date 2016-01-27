@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="libs/angular-bootstrap/ui-bootstrap-csp.css">
+    <script type="text/javascript" src="libs/angular/angular.js"></script>
+    <script type="text/javascript" src="libs/angular-bootstrap/ui-bootstrap.js"></script>
+    <script type="text/javascript" src="libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+</head>
+
+
+<body ng-app="main" ng-controller="UserCtrl as user">
+<!-- <div ng-show="!!user.username1">Welcom{{user.username1}}</div> -->
+ <!--   <div ng-show="!!user.username2">Welcom{{user.username2}} -->
+    <div class="container">
+        <div ng-include="'nav.html'"></div>
+        <div ng-include="'list.html'"></div>
+    </div>
+    <script type="text/javascript " src="app.js "></script>
+    <script type="text/javascript " src="login.js "></script>
+</body>
+
+</html>
